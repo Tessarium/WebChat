@@ -9,7 +9,7 @@ To start your Phoenix server:
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-# WebChat
+# Task
 Решение для тестового задания elixir-phoenix.
 
 Необходимо разработать webchat.
