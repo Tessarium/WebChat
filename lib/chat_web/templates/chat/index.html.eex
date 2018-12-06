@@ -1,0 +1,8 @@
+<div class="phx-hero">
+  <h2>Enter your name</h2>
+
+<%= form_for @conn, Routes.chat_path(@conn, :sess_name), fn f -> %>
+  Name: <%= text_input f, :name %>
+<% end %>
+
+</div>

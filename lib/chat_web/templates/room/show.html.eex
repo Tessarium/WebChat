@@ -1,0 +1,14 @@
+<script>
+window.channelRoomId = "<%= @room.id %>";
+window.UserName = "<%= @name %>"
+</script>
+
+<h2><%= @room.name %></h2>
+<ul class="list-group mt-5" id="messages"></ul>
+
+<form class="input-group mt-3" id="new-message">
+  <input type="text" class="form-control" placeholder="Message #<%= @room.name %>" id="message-content" />
+  <div class="input-group-append">
+    <button class="btn btn-outline-success" type="submit">Send</button>
+  </div>
+</form>

@@ -9,13 +9,13 @@ To start your Phoenix server:
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-  * Official website: http://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Mailing list: http://groups.google.com/group/phoenix-talk
-  * Source: https://github.com/phoenixframework/phoenix
 # WebChat
+Решение для тестового задания elixir-phoenix.
+
+Необходимо разработать webchat.
+После захода на главную страницу пользователь вводит свое имя и попадает на страницу созданных чатов. Выбирает тот чат, где хочет общаться либо создает новый.
+Каждое сообщение, которое пишет пользователь автоматом попадает в конец текущего чата у всех пользователей сразу.
+Сообщения хранятся в БД.
+Внешний вид существенной роли не играет. Можно использовать стандартный bootstrap.
+По желанию использовать websockets встроенные в Phoenix.
+Реализация проекта на Elixir с использованием Phoenix.
